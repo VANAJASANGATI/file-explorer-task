@@ -1,6 +1,13 @@
+import { useState } from "react";
 import info from "./data.json";
 const jsonData = info.data;
 function GetFileExplorer() {
+  const [isExpanded, setIsExpanded] = useState([
+    { name: "Public", isExpanded: false },
+    { name: "Src", isExpanded: false },
+    { name: "Components", isExpanded: false },
+    { name: "Test", isExpanded: false },
+  ]);
   console.log("data", jsonData);
   const List = ({ data }) => {
     console.log("listdata", data);
