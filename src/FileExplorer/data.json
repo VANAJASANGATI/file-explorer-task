@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Public",
+      "isFolder": true,
+      "children": [
+        {
+          "id": 11,
+          "name": "Test",
+          "isFolder": true,
+          "children": [
+            {
+              "id": 21,
+              "name": "Practice.tsx",
+              "isFolder": false
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "Common",
+          "isFolder": true,
+          "children": [
+            {
+              "id": 41,
+              "name": "Learn.tsx",
+              "isFolder": false
+            }
+          ]
+        },
+        {
+          "id": 51,
+          "name": "New",
+          "isFolder": false
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Src",
+      "isFolder": true,
+      "children": [
+        {
+          "id": 71,
+          "name": "Components",
+          "isFolder": true,
+          "children": [
+            {
+              "id": 81,
+              "name": "Footer.tsx",
+              "isFolder": false
+            }
+          ]
+        }
+      ]
+    },
+    { "id": 91, "name": "Package.json", "isFolder": false }
+  ]
+}
