@@ -32,7 +32,7 @@
         {
           "id": 51,
           "name": "New",
-          "isFolder": false
+          "isFolder": true
         }
       ]
     },
